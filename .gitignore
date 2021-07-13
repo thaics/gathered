@@ -3,7 +3,6 @@ venv_gath
 __pycache__/
 
 # dependencies
-/node_modules
 /.pnp
 .pnp.js
 
