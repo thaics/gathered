@@ -1,6 +1,0 @@
- npx create-react-app gatheredapi
-
- npm start
- npm install react-router-dom
- npm install @material-ui/core  // pre-existing react components (similar to boostrap)
- pip install django-cors-headers
