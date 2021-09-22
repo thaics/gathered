@@ -1,5 +1,13 @@
+from gathered.models import Event
+from django.contrib.auth import models
 from django.contrib.auth.models import User, Group
 from rest_framework import serializers
+from gathered.models import Event
+
+class EventSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Event
+        fields = ('id', 'title', 'description', 'completed')
 
 class UserSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
